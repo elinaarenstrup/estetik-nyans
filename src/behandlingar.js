@@ -19,10 +19,10 @@ const CardContainer = styled.div`
   justify-content: center;
 `;
 
-const Title = styled.h2`
+const Title = styled.h1`
   margin-bottom: 3rem;
   font-family: "Playfair Display", serif;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-transform: uppercase;
 `;
 
@@ -34,22 +34,22 @@ export const Behandlingar = (roundImgUrl, title, secondaryText) => {
         <RoundCard
           roundImgUrl="https://www.fillmurray.com/100/100"
           title="Title"
-          secondaryText="Secondary text"
+          secondaryText="Cupcake ipsum dolor. Sit amet muffin candy canes tootsie roll. Marshmallow lemon drops danish candy canes topping topping muffin soufflé. Danish cookie jujubes bear claw cheesecake chocolate cake macaroon. Chocolate marshmallow cake cake chupa chups sesame snaps. Oat cake liquorice macaroon bonbon carrot cake pudding jelly carrot cake jelly. Candy canes sweet roll brownie cake pie lemon drops. Jujubes chocolate cake gingerbread topping dessert pastry cotton candy cake. Jujubes gummi bears ice cream pie marzipan dessert cupcake."
         />
         <RoundCard
           roundImgUrl="https://www.fillmurray.com/100/100"
           title="Title"
-          secondaryText="Secondary text"
+          secondaryText="Cupcake ipsum dolor. Sit amet muffin candy canes tootsie roll. Marshmallow lemon drops danish candy canes topping topping muffin soufflé. Danish cookie jujubes bear claw cheesecake chocolate cake macaroon. Chocolate marshmallow cake cake chupa chups sesame snaps. Oat cake liquorice macaroon bonbon carrot cake pudding jelly carrot cake jelly. Candy canes sweet roll brownie cake pie lemon drops. Jujubes chocolate cake gingerbread topping dessert pastry cotton candy cake. Jujubes gummi bears ice cream pie marzipan dessert cupcake."
         />
         <RoundCard
           roundImgUrl="https://www.fillmurray.com/100/100"
           title="Title"
-          secondaryText="Secondary text"
+          secondaryText="Cupcake ipsum dolor. Sit amet muffin candy canes tootsie roll. Marshmallow lemon drops danish candy canes topping topping muffin soufflé. Danish cookie jujubes bear claw cheesecake chocolate cake macaroon. Chocolate marshmallow cake cake chupa chups sesame snaps. Oat cake liquorice macaroon bonbon carrot cake pudding jelly carrot cake jelly. Candy canes sweet roll brownie cake pie lemon drops. Jujubes chocolate cake gingerbread topping dessert pastry cotton candy cake. Jujubes gummi bears ice cream pie marzipan dessert cupcake."
         />
         <RoundCard
           roundImgUrl="https://www.fillmurray.com/100/100"
           title="Title"
-          secondaryText="Secondary text"
+          secondaryText="Cupcake ipsum dolor. Sit amet muffin candy canes tootsie roll. Marshmallow lemon drops danish candy canes topping topping muffin soufflé. Danish cookie jujubes bear claw cheesecake chocolate cake macaroon. Chocolate marshmallow cake cake chupa chups sesame snaps. Oat cake liquorice macaroon bonbon carrot cake pudding jelly carrot cake jelly. Candy canes sweet roll brownie cake pie lemon drops. Jujubes chocolate cake gingerbread topping dessert pastry cotton candy cake. Jujubes gummi bears ice cream pie marzipan dessert cupcake."
         />
       </CardContainer>
     </Wrapper>

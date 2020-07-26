@@ -14,7 +14,7 @@ const Wrapper = styled.div`
 const Title = styled.h2`
   margin-bottom: 3rem;
   font-family: "Playfair Display", serif;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-transform: uppercase;
 `;
 

@@ -2,7 +2,8 @@ import React from "react";
 import styled from "styled-components/macro";
 
 const Container = styled.div`
-  margin: 0rem 1rem;
+  width: 25rem;
+  margin: 0rem 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,7 +18,7 @@ const RoundImage = styled.div`
   background-size: cover;
 `;
 
-const Title = styled.h2`
+const MidTitle = styled.h2`
   margin: 1rem 0rem;
   font-family: "Playfair Display", serif;
   font-size: 1.5rem;
@@ -34,7 +35,7 @@ export const RoundCard = ({ roundImgUrl, title, secondaryText }) => {
   return (
     <Container>
       {roundImgUrl && <RoundImage url={roundImgUrl} />}
-      {title && <Title>{title}</Title>}
+      {title && <MidTitle>{title}</MidTitle>}
       {secondaryText && <SecondaryText>{secondaryText}</SecondaryText>}
     </Container>
   );
