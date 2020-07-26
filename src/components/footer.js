@@ -69,18 +69,30 @@ export const Footer = () => {
     <Wrapper>
       <Container>
         <MidTitle>Kontakt</MidTitle>
-        <StyledLink>
-          <FontAwesomeIcon icon={faPhone} /> 0763-xxxx
-        </StyledLink>
         <StyledLink
-          aria-label="email"
-          href="mailto:name@email.se"
+          aria-label="telefon nummer"
+          href="tel:+46709993378"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FontAwesomeIcon icon={faEnvelope} /> name@email.se
+          <FontAwesomeIcon icon={faPhone} /> 0709-99 33 78
         </StyledLink>
-        <StyledLink>Boka Tid</StyledLink>
+        <StyledLink
+          aria-label="email"
+          href="mailto:anna@estetiknyans.se?subject=Hej Anna!&body=Hej Anna!"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FontAwesomeIcon icon={faEnvelope} /> anna@estetiknyans.se
+        </StyledLink>
+        <StyledLink
+          aria-label="boka tid"
+          href="https://www.bokadirekt.se/places/estetik-nyans-22696"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Boka Tid
+        </StyledLink>
       </Container>
       <MidTitle>Footer</MidTitle>
       <Container>
