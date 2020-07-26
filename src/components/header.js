@@ -36,7 +36,13 @@ export const Header = () => {
   return (
     <Wrapper>
       <Logo src={logoPic} alt="Logo" />
-      <Button text="Kontakta mig" href="mailto:name@email.se" target="_blank" />
+      <Button
+        aria-label="Kontakt knapp"
+        text="Kontakta mig"
+        href="mailto:name@email.se"
+        target="_blank"
+        rel="noopener noreferrer"
+      />
     </Wrapper>
   );
 };
