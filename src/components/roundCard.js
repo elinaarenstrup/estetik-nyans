@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components/macro";
 
 const Container = styled.div`
-  width: 25rem;
+  width: 20rem;
   margin: 0rem 2rem;
   display: flex;
   flex-direction: column;
@@ -11,8 +11,8 @@ const Container = styled.div`
 `;
 
 const RoundImage = styled.div`
-  width: 25rem;
-  height: 25rem;
+  width: 20rem;
+  height: 20rem;
   border-radius: 50%;
   background-image: url(${(props) => props.url});
   background-size: cover;

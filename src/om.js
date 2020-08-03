@@ -22,7 +22,7 @@ const Container = styled.div`
 
 const ImgSection = styled.div`
   width: 500px;
-  height: 100%;
+  height: 70vh;
   background-image: url(${flowerPic});
   background-repeat: no-repeat;
   background-size: cover;
@@ -37,8 +37,8 @@ const TextSection = styled.div`
   align-items: center;
   justify-content: center;
   width: 500px;
-  height: 100%;
-  background-color: #f1f1f1;
+  height: 70vh;
+  background-color: #fff;
 `;
 
 const MidTitle = styled.h2`

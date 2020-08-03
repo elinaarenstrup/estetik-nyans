@@ -20,7 +20,7 @@ const CardContainer = styled.div`
 `;
 
 const Title = styled.h1`
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
   font-family: "Playfair Display", serif;
   font-size: 2rem;
   text-transform: uppercase;

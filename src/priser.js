@@ -49,7 +49,7 @@ const Table = styled.table`
   font-family: "Playfair Display", serif;
   td,
   th {
-    padding: 8px;
+    padding: 1.5rem;
   }
 
   th {
@@ -100,7 +100,7 @@ export const Priser = () => {
       <Container>
         <MidTitle>Boka Online</MidTitle>
         <SecondaryText>
-          För mer specificerad prislista var vänlig och besök "Boka online" via
+          För mer specificerad prislista var vänlig besök "Boka online" via
           länken nedan.
         </SecondaryText>
         <Button
