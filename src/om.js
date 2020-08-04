@@ -56,7 +56,7 @@ const SecondaryText = styled.p`
 
 export const OmMig = () => {
   return (
-    <Wrapper>
+    <Wrapper id="om">
       <Container>
         <ImgSection></ImgSection>
         <TextSection>

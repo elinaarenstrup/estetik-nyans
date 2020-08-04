@@ -19,7 +19,7 @@ const Wrapper = styled.div`
 
 const Logo = styled.img`
   margin-bottom: 5rem;
-  width: 15rem;
+  width: 20rem;
 `;
 
 /* const OutlinedButton = styled(Button)`

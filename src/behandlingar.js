@@ -28,7 +28,7 @@ const Title = styled.h1`
 
 export const Behandlingar = (roundImgUrl, title, secondaryText) => {
   return (
-    <Wrapper>
+    <Wrapper id="behandlingar">
       <Title>Behandlingar</Title>
       <CardContainer>
         <RoundCard

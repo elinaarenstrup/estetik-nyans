@@ -20,6 +20,8 @@ const StyledLink = styled.a`
   text-transform: uppercase;
   cursor: pointer;
   transition: all 0.3s;
+  text-decoration: none;
+  color: #000;
 
   &:hover {
     text-decoration: none;
@@ -30,11 +32,11 @@ const StyledLink = styled.a`
 export const Nav = () => {
   return (
     <Wrapper>
-      <StyledLink to={"/"}>Hem</StyledLink>
-      <StyledLink>Om mig</StyledLink>
-      <StyledLink>Behandlingar</StyledLink>
-      <StyledLink>Priser</StyledLink>
-      <StyledLink>Kontakt</StyledLink>
+      <StyledLink href="/">Hem</StyledLink>
+      <StyledLink href="#om">Om mig</StyledLink>
+      <StyledLink href="#behandlingar">Behandlingar</StyledLink>
+      <StyledLink href="#priser">Priser</StyledLink>
+      <StyledLink href="#kontakt">Kontakt</StyledLink>
     </Wrapper>
   );
 };

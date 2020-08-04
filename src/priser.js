@@ -73,7 +73,7 @@ const Table = styled.table`
 
 export const Priser = () => {
   return (
-    <Wrapper>
+    <Wrapper id="priser">
       <Title>Priser</Title>
       <Table>
         <tr>
