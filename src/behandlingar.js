@@ -19,10 +19,11 @@ const CardContainer = styled.div`
   justify-content: center;
 `;
 
-const Title = styled.h1`
-  margin-bottom: 5rem;
+const Title = styled.h2`
+  margin-bottom: 3rem;
   font-family: "Playfair Display", serif;
-  font-size: 2rem;
+  font-weight: lighter;
+  font-size: 4rem;
   text-transform: uppercase;
 `;
 

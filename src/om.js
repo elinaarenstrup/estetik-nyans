@@ -41,10 +41,11 @@ const TextSection = styled.div`
   background-color: #fff;
 `;
 
-const MidTitle = styled.h2`
-  margin: 1rem 0rem;
+const Title = styled.h2`
+  margin-bottom: 3rem;
   font-family: "Playfair Display", serif;
-  font-size: 1.5rem;
+  font-weight: lighter;
+  font-size: 4rem;
   text-transform: uppercase;
 `;
 
@@ -60,7 +61,7 @@ export const OmMig = () => {
       <Container>
         <ImgSection></ImgSection>
         <TextSection>
-          <MidTitle>Om Mig</MidTitle>
+          <Title>Om Mig</Title>
           <SecondaryText>
             Cupcake ipsum dolor. Sit amet muffin candy canes tootsie roll.
             Marshmallow lemon drops danish candy canes topping topping muffin

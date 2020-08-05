@@ -12,9 +12,11 @@ const Wrapper = styled.div`
   height: 100vh;
   background-color: pink;
   background-image: url(${headerPic});
+  background-position: center;
+  background-attachment: fixed;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
 `;
 
 const Logo = styled.img`

@@ -75,7 +75,8 @@ const MidTitle = styled.h2`
 const Title = styled.h2`
   margin-bottom: 3rem;
   font-family: "Playfair Display", serif;
-  font-size: 2rem;
+  font-weight: lighter;
+  font-size: 4rem;
   text-transform: uppercase;
 `;
 
